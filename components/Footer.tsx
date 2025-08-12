@@ -64,8 +64,16 @@ export default function Footer() {
                 <span className="text-sm">+62 852-7782-9024</span>
               </div>
               <div className="flex items-start space-x-2">
+                <Phone className="h-4 w-4 mt-1 flex-shrink-0" />
+                <span className="text-sm">+62 812-6016-620</span>
+              </div>
+              <div className="flex items-start space-x-2">
                 <MessageCircle className="h-4 w-4 mt-1 flex-shrink-0" />
                 <span className="text-sm">WhatsApp: +62 852-7782-9024</span>
+              </div>
+              <div className="flex items-start space-x-2">
+                <MessageCircle className="h-4 w-4 mt-1 flex-shrink-0" />
+                <span className="text-sm">WhatsApp: +62 812-6016-620</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
