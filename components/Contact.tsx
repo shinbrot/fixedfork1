@@ -38,10 +38,22 @@ export default function Contact() {
       action: () => window.open('tel:+6285277829024', '_self')
     },
     {
+      icon: Phone,
+      title: 'Telepon 2',
+      content: '+62 812-6016-620',
+      action: () => window.open('tel:+6281260166620', '_self')
+    },
+    {
       icon: MessageCircle,
       title: 'WhatsApp',
       content: '+62 852-7782-9024',
       action: () => window.open('https://wa.me/6285277829024', '_blank')
+    },
+    {
+      icon: MessageCircle,
+      title: 'WhatsApp 2',
+      content: '+62 812-6016-620',
+      action: () => window.open('https://wa.me/6281260166620', '_blank')
     },
     {
       icon: MapPin,
